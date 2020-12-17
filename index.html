@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <script
+      src="https://kit.fontawesome.com/6c9399d2f9.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, initial-scale=1.0"
+    />
+    <script src="node_modules/kutay-dialogs/dialogs.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="node_modules/kutay-dialogs/dialogs.css">
+  </head>
+  <body>
+    <div class="banner">
+      
+        <span class="count" id="banner">1/4</span>
+        
+      </div>
+    </div>
+    <div class="image">
+      <img id="image" class="image" src="img/pepsi.jpeg" />
+    </div>
+    <div class="score" id="score">0</div>
+    <div class="hft">
+      <button onclick="hint()" class="hint">
+        <i class="far fa-lightbulb"></i> Hint
+      </button>
+      <button class="facebook">
+        <i class="fab fa-facebook-square" style="color: #4267b2"></i>
+      </button>
+      <button class="twitter">
+        <i class="fab fa-twitter-square" style="color: #1da1f2"></i>
+      </button>
+    </div>
+
+    <div class="followings">
+      <button onclick="answer1OnClick()" id="answer1" class="answer1"></button>
+      <button onclick="answer2OnClick()" id="answer2" class="answer2"></button>
+      <button onclick="answer3OnClick()" id="answer3" class="answer3"></button>
+      <button onclick="answer4OnClick()" id="answer4" class="answer4"></button>
+    </div>
+
+  
+    <script src="index.js"></script>
+  </body>
+</html>

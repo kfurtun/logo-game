@@ -1,0 +1,188 @@
+body {
+  background-color: white;
+}
+.image {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.score {
+  margin-top: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px red;
+  background-color: red;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  font-size: 28px;
+}
+.hft {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hint {
+  background-color: yellow;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  width: 75px;
+  height: 35px;
+}
+.hint:hover {
+  border: 2px solid black;
+  color: black;
+}
+.facebook {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+}
+.facebook:hover {
+  border: 2px solid black;
+  color: black;
+}
+
+.twitter {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+}
+.twitter:hover {
+  border: 2px solid black;
+  color: black;
+}
+.followings {
+  margin-top: 50px;
+}
+
+.answer1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 270px;
+  height: 35px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border-style: outset;
+  border-color: DDE3DF;
+  cursor: pointer;
+}
+.answer1:hover {
+  border: 2px solid black;
+  color: black;
+}
+
+.answer2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 270px;
+  height: 35px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border-style: outset;
+  border-color: DDE3DF;
+  cursor: pointer;
+}
+.answer2:hover {
+  border: 2px solid black;
+  color: black;
+}
+
+.answer3 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 270px;
+  height: 35px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border-style: outset;
+  border-color: DDE3DF;
+  cursor: pointer;
+}
+.answer3:hover {
+  border: 2px solid black;
+  color: black;
+}
+
+.answer4 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 270px;
+  height: 35px;
+  border-radius: 4px;
+  border-style: outset;
+  border-color: DDE3DF;
+  cursor: pointer;
+}
+.answer4:hover {
+  border: 2px solid black;
+  color: black;
+}
+
+.modal {
+  background-color: rgba(128, 128, 128, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.dialog {
+  margin-top: -5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  max-height: auto;
+}
+.banner {
+  margin-bottom: 20px;
+  background-color: yellow;
+  width: 800px;
+  height: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+.count {
+  height: 30px;
+  background-color: red;
+  align-items: center;
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 4px;
+}
+.dialog2 {
+  margin-top: 35vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  max-height: auto;
+}
